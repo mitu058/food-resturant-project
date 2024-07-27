@@ -1,0 +1,252 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    width: 1248px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-options{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2.75rem;
+    margin-right: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.logo{
+    margin-left: 30px;
+    font-size: 30px;
+    color: rgb(209, 59, 59);
+}
+/* first section */
+.btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 15px 15px 15px 15px;
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+border: none;
+cursor: pointer;
+}
+#hero {
+    width: 1248px;
+    height: 597px;
+    margin: 0 auto;
+    background-image:  linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+ .hero-content{
+   width: 470px; 
+   margin: 0 auto;
+   text-align: center;
+}
+ .subtitle{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+
+opacity: 0.8;
+margin-bottom: 8px;
+}
+ .title{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size:35 px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+ .description{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 32px;
+}
+/* Discount section */
+#card-box{
+    width: 607px;
+    margin: 50px auto;
+}
+
+
+.info h1{
+    font-family: Work Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+  text-align: center;
+}
+.info p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+
+.card-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    /* font-family: Work Sans; */
+    
+}
+.card{
+    display: flex;
+    /* max-width: 200px; */
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image-box img{
+    width: 100%;
+}
+
+.card .shop{
+    background-color: aquamarine;
+    padding: 8px 14px 8px 14px;
+    border-radius: 8px;
+
+background: rgba(82, 195, 3, 0.15);
+}
+/* 3rd sectioin style */
+
+.sec-content{
+    width: 90%;
+margin: 0 auto;
+
+}
+.container-two{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.food-img img{
+    height: 300px;
+    border-radius: 15px;
+} 
+
+.third-content{
+  text-align: center;
+  margin-top: 40px;
+  /* margin-left: 10px; */
+}
+
+.third-content h1{
+    font-family: Work Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.third-content p{
+    font-size: 18px;
+font-weight: 700;
+line-height: 40px;
+}
+
+.third-content h3{
+    font-size: 20px;
+font-weight: 700;
+line-height: 50px;
+}
+
+.horizontal{
+    width: 30%;
+   margin: 0 auto;
+}
+/* footer style  */
+#heros{
+    background-image: linear-gradient( rgba(248,243, 240, 4),rgba(255, 255, 255, 0.7) 100%), url(../assets/social-bg.png);
+
+width: 1248px;
+margin: 0 auto;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+ .heros-content{
+    width: 470px; 
+    margin: 0 auto;
+ }
+
+ .titlee{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 28px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+ }
+
+  .subtitlee{
+ color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 45px;
+text-align: center;
+ }
+ .heros-content h3{
+text-align: center;
+line-height: 45px;
+ }
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  margin-top: 20px;
+   height: 25px; 
+}
+
+
