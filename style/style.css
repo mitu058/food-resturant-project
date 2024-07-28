@@ -6,6 +6,9 @@
     padding: 0;
 }
 
+.nav-icon{
+    display: none;
+}
 .nav-bar{
     width: 1248px;
     margin: 0 auto;
@@ -15,14 +18,22 @@
     justify-content: space-between;
 }
 
-.nav-options{
+.nav-items{
     display: flex;
-    justify-content: space-evenly;
-    gap: 2.75rem;
+    justify-content: space-evenly;  
+}
+
+.nav-items li{
+    list-style: none;
+}
+ li, a{
+    text-decoration: none;  
+    color:brown; 
+    gap: 2rem;
     margin-right: 30px;
-    font-size: 25px;
-    cursor: pointer;
-    
+    font-size: 23px;
+    cursor: pointer; 
+    font-weight: bolder;
 }
 .logo{
     margin-left: 30px;
@@ -99,7 +110,7 @@ margin-bottom: 32px;
 }
 /* Discount section */
 #card-box{
-    width: 607px;
+    width: 70%;
     margin: 50px auto;
 }
 

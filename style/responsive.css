@@ -1,0 +1,28 @@
+@media screen and (max-width:576px){
+    
+    .nav-items{
+        display: none;
+    }
+.nav-icon{
+    display: block;
+    padding: 44px 0 0 160px;
+}
+
+.nav-bar{
+    display: flex;
+  margin: 10px 30px;
+  justify-content: space-between;
+}
+
+#hero{
+  margin: 3rem auto;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10rem;
+}
+
+
+}
