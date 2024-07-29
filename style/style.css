@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-.nav-icon{
+.ham-burger{
     display: none;
 }
 .nav-bar{
@@ -59,8 +59,14 @@ border: none;
 cursor: pointer;
 }
 #hero {
-    width: 1248px;
-    height: 597px;
+    /* width: 100vw;
+height: 100vh; */
+    width:90%;
+    
+    height: 100vh;
+    /* height: 597px; */
+    /* width: 100%;
+    height: 100vh; */
     margin: 0 auto;
     background-image:  linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
     background-size: cover;
@@ -74,7 +80,10 @@ cursor: pointer;
  .hero-content{
    width: 470px; 
    margin: 0 auto;
-   text-align: center;
+   align-items: center;
+    
+  /* align-items: center;
+   justify-content: center;  */
 }
  .subtitle{
     color: rgb(255, 255, 255);
@@ -83,6 +92,7 @@ font-size: 20px;
 font-weight: 600;
 line-height: 38px;
 letter-spacing: 0%;
+text-align: center;
 
 opacity: 0.8;
 margin-bottom: 8px;
@@ -165,7 +175,9 @@ background: rgba(82, 195, 3, 0.15);
 
 .sec-content{
     width: 90%;
+   
 margin: 0 auto;
+border-radius: 2px solid red;
 
 }
 .container-two{
@@ -178,13 +190,13 @@ margin: 0 auto;
     border-radius: 15px;
 } 
 
-.third-content{
+.container-two-des{
   text-align: center;
   margin-top: 40px;
   /* margin-left: 10px; */
 }
 
-.third-content h1{
+.container-two-des h1{
     font-family: Work Sans;
 font-size: 28px;
 font-weight: 700;
@@ -193,13 +205,13 @@ letter-spacing: 0%;
 text-align: center;
 }
 
-.third-content p{
+.container-two-des p{
     font-size: 18px;
 font-weight: 700;
 line-height: 40px;
 }
 
-.third-content h3{
+.container-two-des h3{
     font-size: 20px;
 font-weight: 700;
 line-height: 50px;
@@ -211,10 +223,15 @@ line-height: 50px;
 }
 /* footer style  */
 #heros{
-    background-image: linear-gradient( rgba(248,243, 240, 4),rgba(255, 255, 255, 0.7) 100%), url(../assets/social-bg.png);
+background-image: linear-gradient( rgba(248,243, 240, 4),rgba(255, 255, 255, 0.7) 100%), url(../assets/social-bg.png);
 
-width: 1248px;
+/* width: 1248px;
+margin: 0 auto; */
+
+width: 90%;
+height: 100vh;
 margin: 0 auto;
+
     height: 300px;
     background-size: cover;
     background-position: center;
