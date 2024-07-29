@@ -174,10 +174,9 @@ background: rgba(82, 195, 3, 0.15);
 /* 3rd sectioin style */
 
 .sec-content{
-    width: 90%;
-   
+  width: 90%;
 margin: 0 auto;
-border-radius: 2px solid red;
+
 
 }
 .container-two{
